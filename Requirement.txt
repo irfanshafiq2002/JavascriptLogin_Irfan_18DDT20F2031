@@ -1,0 +1,11 @@
+mesti ada popup untuk setiap syarat yang gagal dipatuhi
+
+- harap maaf, kata laluan anda kurang daripada 12 huruf
+
+- harap maaf, kata laluan anda tidak mengandungi huruf besar
+
+- harap maaf, kata laluan anda tidak mengandungi huruf kecil
+
+- harap maaf, kata laluan anda tidak mengandungi nombor
+
+- harap maaf, kata laluan anda tidak mengandungi simbol
