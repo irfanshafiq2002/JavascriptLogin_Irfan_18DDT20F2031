@@ -1,6 +1,6 @@
 function validate()
 {
-    let password = document.getElementById('password').value;
+    var password = document.getElementById('password').value;
     var filterA = /(?=.*[A-Z])/;
     var filtera = /(?=.*[a-z])/;
     var filterNum = /(?=.*[0-9])/;
