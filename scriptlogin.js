@@ -17,6 +17,10 @@ function validate()
     {
         alert("The password need to include atleast ONE lowercase")
     }
+    else if(password.length < 12)
+    {
+        alert("Sorry, your password is less than 12 characters")
+    }
     else if(!filterNum.text(password))
     {
         alert("The password need to include atleast ONE number")
@@ -25,10 +29,7 @@ function validate()
     {
         alert("The password need to include atleast ONE symbol")
     }
-    else if(password.length < 12)
-    {
-        alert("Sorry, your password is less than 12 characters")
-    }
+   
     else
     {
         alert('Successful Login');
