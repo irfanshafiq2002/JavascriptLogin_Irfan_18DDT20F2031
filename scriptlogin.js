@@ -1,19 +1,20 @@
 function validate()
 {
+    //
     var password = document.getElementById('password').value;
-    var filterA = /(?=.*[A-Z])/;
-    var filtera = /(?=.*[a-z])/;
+    var filterUppercase = /(?=.*[A-Z])/;
+    var filteraLowercase = /(?=.*[a-z])/;
     var filterNum = /(?=.*[0-9])/;
     var filterSym = /(?=.*[#,_^!@*&])/;
     if(password == "")
     {
         alert('Please Enter a Password');
     }
-    else if(!filterA.test(password))
+    else if(!filterUppercase.test(password))
     {
         alert("The password need to include atleast ONE uppercase")
     }
-    else if(!filtera.test(password))
+    else if(!filteraLowercase.test(password))
     {
         alert("The password need to include atleast ONE lowercase")
     }
@@ -33,4 +34,9 @@ function validate()
     {
         alert('Successful Login');
     }
+}
+
+function reset()
+{
+    document.getElementById("box").reset()
 }
